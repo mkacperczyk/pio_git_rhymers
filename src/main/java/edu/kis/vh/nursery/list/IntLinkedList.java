@@ -69,3 +69,4 @@ class Node {
         this.prev = prev;
     }
 }
+// TODO: usunąć niepotrzebną zmienną int i
