@@ -39,3 +39,33 @@ public class IntLinkedList {
     }
 
 }
+class Node {
+
+    private final int value;
+    private Node prev;
+    private Node next;
+
+    public Node(int i) {
+        value = i;
+    }
+
+    int getValue() {
+        return value;
+    }
+
+    Node getNext() {
+        return next;
+    }
+
+    void setNext(Node next) {
+        this.next = next;
+    }
+
+    Node getPrev() {
+        return prev;
+    }
+
+    void setPrev(Node prev) {
+        this.prev = prev;
+    }
+}
